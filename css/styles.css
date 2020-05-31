@@ -13,6 +13,40 @@ body
     overflow: hidden;
 
 }
+.container2
+{
+    text-align: right;
+    
+    font-size: 12px;
+}
+#mainNav
+{
+    color: gray;
+}
+#mainNav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#mainNav li
+{
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 18;
+}
+
+#mainNav li:hover
+{
+    background: #aaa;
+}
+
 .clearFix
 {
     clear: both;
